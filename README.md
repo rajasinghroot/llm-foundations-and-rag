@@ -63,39 +63,6 @@ The system allows users to:
 LLM_MODEL_NAME: str = "google/flan-t5-small"
 
 ---
-## 🗂 Project Structure
-
-```text
-llm-foundations-and-rag/
-│
-├── app/
-│   ├── api/
-│   │   └── v1/
-│   │       ├── endpoints/
-│   │       │   ├── __init__.py
-│   │       │   ├── search.py
-│   │       │   └── upload.py
-│   │       ├── __init__.py
-│   │       └── api.py
-│   ├── core/
-│   │   ├── __init__.py
-│   │   ├── documents_loader.py
-│   │   ├── embeddings.py
-│   │   ├── generate_chunks.py
-│   │   ├── llm_generator.py
-│   │   ├── save_vector.py
-│   │   └── settings.py
-│   ├── services/
-│   │   ├── __init__.py
-│   │   ├── search_services.py
-│   │   └── upload_services.py
-│   ├── __init__.py
-│   └── main.py
-├── docker-compose.yaml
-├── Dockerfile
-├── requirements.txt
-├── LICENSE
-└── README.md
 
 
 ## 📥 API Endpoints
@@ -142,3 +109,39 @@ Clears the vector database and stored chunks.
 
 
 ---
+
+## 🗂 Project Structure
+
+```text
+llm-foundations-and-rag/
+│
+├── app/
+│   ├── api/
+│   │   └── v1/
+│   │       ├── endpoints/
+│   │       │   ├── __init__.py
+│   │       │   ├── search.py
+│   │       │   └── upload.py
+│   │       ├── __init__.py
+│   │       └── api.py
+│   ├── core/
+│   │   ├── __init__.py
+│   │   ├── documents_loader.py
+│   │   ├── embeddings.py
+│   │   ├── generate_chunks.py
+│   │   ├── llm_generator.py
+│   │   ├── save_vector.py
+│   │   └── settings.py
+│   ├── services/
+│   │   ├── __init__.py
+│   │   ├── search_services.py
+│   │   └── upload_services.py
+│   ├── __init__.py
+│   └── main.py
+├── docker-compose.yaml
+├── Dockerfile
+├── requirements.txt
+├── LICENSE
+└── README.md
+
+
