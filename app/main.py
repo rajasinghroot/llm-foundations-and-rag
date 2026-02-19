@@ -1,7 +1,7 @@
 from fastapi import FastAPI, HTTPException, Request
 
 from app.core.settings import get_settings
-from app.api.v1.endpoints import upload , search
+from app.api.v1.endpoints import upload, search
 
 settings = get_settings()
 app = FastAPI(
