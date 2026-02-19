@@ -60,9 +60,9 @@ The system allows users to:
 ## 🤖 LLM Configuration
 
 ### 🔹 Model Used
-
-```python
 LLM_MODEL_NAME: str = "google/flan-t5-small"
+
+---
 
 ## 🗂 Project Structure
 
@@ -114,7 +114,7 @@ Uploads a PDF or DOCX file.
 
 #### ✅ Response
 
-```json
+#### json
 {
   "message": "File processed successfully",
   "total_chunks": 4
@@ -127,7 +127,7 @@ Uploads a PDF or DOCX file.
 
 #### 🔹 Request
 
-```json
+#### json
 {
   "query": "Explain about hospitals in India"
 }
@@ -141,7 +141,7 @@ Clears the vector database and stored chunks.
 
 #### ✅ Response
 
-```json
+#### json
 {
   "message": "FAISS index cleared successfully"
 }
